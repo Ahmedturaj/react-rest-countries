@@ -1,0 +1,30 @@
+.country{
+    border: 2px solid skyblue;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.countryBg {
+    background-color: azure;
+    color: black;
+    transition:all 2s;
+}
+.countryBg2{
+    background-color: #1a1a1c; 
+    color: white;
+    transition:all 2s;
+}
+.visited{
+    background-color: blue;
+    transition: all 2s;
+}
+
+.visited:hover{
+    font-weight: bold;
+    font-style: italic;
+    background: rgb(255, 94, 0);
+    transform: rotate(-9deg);
+    scale: 1.2;
+  
+}
